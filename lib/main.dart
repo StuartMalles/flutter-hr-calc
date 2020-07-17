@@ -68,8 +68,7 @@ class _CalculatorState extends State<Calculator> {
 
     setState(() {
       _operator = '';
-      _displayValue =
-          newdisplayvalue.toStringAsPrecision(8).replaceAll(RegExp(r'.0'), '');
+      _displayValue = newdisplayvalue.toString().substring(0, 10);
     });
   }
 
