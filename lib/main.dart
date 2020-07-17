@@ -68,7 +68,7 @@ class _CalculatorState extends State<Calculator> {
 
     setState(() {
       _operator = '';
-      _displayValue = newdisplayvalue.toString().substring(0, 10);
+      _displayValue = newdisplayvalue.toString();
     });
   }
 
