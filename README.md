@@ -1,5 +1,3 @@
-# hanker_rank_calc
-
 A new Flutter project.
 
 ## Getting Started
